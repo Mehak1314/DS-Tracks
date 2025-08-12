@@ -67,7 +67,7 @@ int main() {
                 
             case 4: // DELETE
                 if (n == 0) {
-                    cout << "Array is empty!\n";
+                    cout << "Array is empty!"<<endl;
                 } else {
                     cout << "Enter index to delete (0 to " << n - 1 << "): ";
                     cin >> index;
