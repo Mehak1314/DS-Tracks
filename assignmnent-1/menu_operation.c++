@@ -14,7 +14,6 @@ void displayMenu() {
 
 int main() {
     int arr[30], n = 0, choice, element, index;
-    
     do {
         displayMenu();
         cout << "Enter your choice: ";
