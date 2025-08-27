@@ -14,7 +14,6 @@ int findMissingLinear(int arr[], int n) {
 // Binary Search Approach
 int findMissingBinary(int arr[], int n) {
     int low = 0, high = n - 2; // array has n-1 elements
-
     while (low <= high) {
         int mid = (low + high) / 2;
 
